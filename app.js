@@ -3,7 +3,7 @@ require ('dotenv').config();
 const app = require('express')(); 
 const routes = require('./routes'); 
 
-const port = 8080; 
+const port = process.env.PORT; 
 const bunyan = require('bunyan'); 
 
 var log = bunyan.createLogger({name: 'dexcom-test-app'}); 
