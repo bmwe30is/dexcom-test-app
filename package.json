@@ -1,0 +1,19 @@
+{
+  "name": "dexcom-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "npm": "^5.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --inspect=5858 app.js  | bunyan",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Chan",
+  "license": "ISC"
+}
