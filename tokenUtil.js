@@ -13,7 +13,7 @@ module.exports = {
 
         var options = {
             "method": "POST",            
-            "hostname": dexcomHost,
+            "hostname": dexcomHost, 
             "port": null,
             "path": "/v1/oauth2/token",
             "headers": {

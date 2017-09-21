@@ -4,12 +4,15 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.18.1",
     "bunyan": "^1.8.12",
     "dotenv": "^4.0.0",
     "express": "^4.15.4",
     "npm": "^5.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
   "scripts": {
     "start": "node --inspect=5858 app.js  | bunyan",
     "test": "echo \"Error: no test specified\" && exit 1"
